@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>DrHouse.Wrapper</id>
+    <version>0.0.1</version>
+    <title>DrHouse Wrapper</title>
+    <authors>charleslomboni</authors>
+    <owners>charleslomboni</owners>
+    <projectUrl>https://github.com/charleslomboni/DrHouse.Wrapper</projectUrl>
+    <iconUrl>https://phobosedeimos.files.wordpress.com/2010/02/dr-house-imagem.jpg?w=510</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Wrapper para o projeto DrHouse de healthcheck (https://github.com/mdalepiane/DrHouse)</description>
+    <releaseNotes>First Release</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>drhouse wrapper healthcheck</tags>
+  </metadata>
+</package>
