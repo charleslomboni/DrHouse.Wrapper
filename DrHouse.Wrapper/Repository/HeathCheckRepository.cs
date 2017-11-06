@@ -49,9 +49,6 @@ namespace DrHouse.Wrapper.Repository
         /// <returns></returns>
         public async Task<IList<Diagnostic>> CheckTablePermissionsAsync(ITablesDiagnostics tablesDiagnostics)
         {
-            // Usa o autoConfig para ler uma seção do web.config com todas as tabelase e permissões
-            //var tablesDiagnostics = AutoConfig.Map<ITablesDiagnostics>();
-
             foreach (var table in tablesDiagnostics.TablePermissions)
             {
                 // Recupera as permissões da tabela passada
