@@ -105,7 +105,9 @@ namespace DrHouse.Wrapper.Repository
 
             foreach (var permission in permissions)
             {
-                var canParse = Enum.TryParse(permission.ToUpper(), out Permission permissionParsed);
+                var permissionParsed = Permission.Undefined;
+
+                var canParse = Enum.TryParse(permission.ToUpper(), out permissionParsed);
                 if (!canParse)
                     throw new ApplicationException("There is a permissions config that was not correctly setted: " +
                                                    $"Table: {tablePermissions.Name}; Permission:{permission}");
